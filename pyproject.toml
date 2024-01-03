@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pySSA"
+version = "0.1.0"
+description = "Package to perform Singular Spectrum Analysis (SSA) on time series data"
+authors = ["Stephen <stephen@sjbs.me>", "Zella <zellbaig@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.5.2"
+numpy = "^1.26.2"
+pytest = "^7.4.3"
+pathos = "^0.3.1"
+ruff = "^0.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
